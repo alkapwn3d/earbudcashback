@@ -136,6 +136,15 @@ nav .container {
     padding: 1.5rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .deal-header {
@@ -268,5 +277,9 @@ footer a:hover {
     
     .logo {
         font-size: 1.2rem;
+    }
+    
+    .deals-grid {
+        grid-template-columns: 1fr;
     }
 }
