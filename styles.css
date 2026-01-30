@@ -34,6 +34,19 @@ nav .container {
     font-weight: bold;
 }
 
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo-tagline {
+    font-size: 0.65rem;
+    font-weight: normal;
+    opacity: 0.8;
+    margin-top: -2px;
+    letter-spacing: 0.3px;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
