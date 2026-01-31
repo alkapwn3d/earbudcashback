@@ -2,26 +2,6 @@
 
 A cashback website for wireless earbuds. Users can earn cashback by shopping through our affiliate links.
 
-## Structure
-
-```
-.
-├── index.html              # Homepage
-├── deals.html              # Product deals page
-├── how-it-works.html       # Cashback process explanation
-├── about.html              # About page
-├── contact.html            # Contact form
-├── disclosure.html         # Affiliate disclosure
-├── privacy.html            # Privacy policy
-└── assets/
-    ├── css/
-    │   └── styles.css      # Main stylesheet
-    └── images/
-        ├── favicon.ico     # Browser favicon
-        ├── apple-touch-icon.png  # iOS icon
-        └── logo.png        # Logo image
-```
-
 ## Setup
 
 This is a static HTML website. To deploy:
